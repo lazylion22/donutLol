@@ -7,7 +7,7 @@ from donutLol import donut
 donut()
 ```
 
-to run in cmd / CLI
+to run in windows cmd:
 
 ```
 donut
