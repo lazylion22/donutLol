@@ -4,7 +4,7 @@ to insatll:
 pip install donutLol
 ```
 
-to run in code 
+to run in code:
 
 ```
 from donutLol import donut 

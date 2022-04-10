@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = '0.0.8'
+VERSION = '0.0.9'
 DESCRIPTION = 'Prints a 3d donut'
 
 # Setting up
