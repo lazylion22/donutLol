@@ -7,14 +7,14 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = '0.0.7'
+VERSION = '0.0.8'
 DESCRIPTION = 'Prints a 3d donut'
 
 # Setting up
 setup(
     name="donutLol",
     version=VERSION,
-    scripts=['donut.bat','donut.py'] ,
+    scripts=['donut.bat'] ,
     author="lazylion2",
     author_email="<lazylion2@gmail.com>",
     description=DESCRIPTION,
