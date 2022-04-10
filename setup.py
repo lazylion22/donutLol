@@ -7,19 +7,19 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'Prints a 3d donut'
-LONG_DESCRIPTION = 'A package that allows to print a 3d donut'
 
 # Setting up
 setup(
     name="donutLol",
     version=VERSION,
+    scripts=['donut.exe'] ,
     author="lazylion2",
-    author_email="<mail@neuralnine.com>",
+    author_email="<lazylion2@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'donut', 'donut3d'],
