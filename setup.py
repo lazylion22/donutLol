@@ -21,6 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
+    install_requires=[],
     keywords=['python', 'donut', 'donut3d'],
     classifiers=[
         "Development Status :: 1 - Planning",

@@ -2,8 +2,13 @@
 
 to run in code 
 
-```donut()```
+```
+from donutLol import donut 
+donut()
+```
 
 to run in cmd / CLI
 
-```donut```
+```
+donut
+```
