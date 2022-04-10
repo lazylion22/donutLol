@@ -1,4 +1,8 @@
 # donut3d
+to insatll:
+```
+pip install donutLol
+```
 
 to run in code 
 
